@@ -3,9 +3,7 @@ close all;
 
 setup();
 
-base_path = '/media/gs/study/gushuang/data/ValidationSet';
-% base_path = '/media/gs/study/gushuang/data/PrincetonTrackingBenchmark/EvaluationSet';
-
+base_path = '../data/ValidationSet';
 
 %%  params initialization
     params.padding = 1.5;  %extra area surrounding the target
